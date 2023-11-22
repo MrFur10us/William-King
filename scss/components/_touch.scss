@@ -1,0 +1,58 @@
+.touch {
+  &__title {
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-bottom: 17px;
+    span {
+      color: var(--c-primary);
+    }
+  }
+
+  &__text {
+    color: var(--c-body);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 40px;
+    max-width: 460px;
+  }
+}
+
+.field {
+  &__input {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    background: var(--c-dark2);
+    padding: 12px;
+    color: var(--c-white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 144%;
+    letter-spacing: 0.16px;
+    border-radius: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    width: 100%;
+    max-width: 1140px;
+    margin-bottom: 24px;
+  }
+
+  &__textarea {
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    background: var(--c-dark2);
+    padding: 12px;
+    color: var(--c-white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 144%;
+    letter-spacing: 0.16px;
+    transform: 0.2s all ease-in;
+    resize: none;
+    width: 100%;
+    max-width: 1140px;
+    height: 120px;
+  }
+}

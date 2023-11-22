@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 37px 200px;
+  background: var(--c-dark2);
+  @include desktop-small {
+    flex-direction: column;
+    text-align: center;
+  }
+  @include tablet-small {
+    padding: 37px 0px;
+  }
+
+  &__main {
+    font-size: 16px;
+    font-weight: 400;
+    span {
+      color: var(--c-primary);
+    }
+    @include tablet {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__nav {
+  }
+
+  &__ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    z-index: 1;
+    @include mobile-small {
+        gap: 7px;
+    }
+  }
+
+  &__li {
+    display: flex;
+  }
+
+  &__a {
+
+  }
+}
